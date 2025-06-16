@@ -1,0 +1,21 @@
+// Variables
+$box-bg-color: #f9f9f9;
+$box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+$header-font-size: 2rem;
+$screen-label-font-size: 2rem;
+$input-label-font-size: 2rem/1.618;
+$button-font-size: 1.573rem; // sqrt(2rem * 1.236rem) ≈ 1.573rem
+$button-padding: 15px 20px;
+$button-width: 250px;
+$button-height: 100px;
+$button-border-radius: 15px;
+$green-color: rgba(0, 255, 0, 0.7);
+
+// Mixins
+@mixin flex-center($direction: row, $gap: 0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
