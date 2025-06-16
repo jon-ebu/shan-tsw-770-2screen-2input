@@ -24,6 +24,7 @@
 		"vite-plugin-purgecss": "^0.2.13"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.8",
 		"bootstrap-icons": "^1.11.3"
 	}
 }
